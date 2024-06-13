@@ -1,0 +1,37 @@
+#tasks{
+    display:flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.8rem;
+    width: 100vw;  
+}
+
+.addTask{
+    text-decoration: none;
+    border-radius: 2px solid #ffbd03;
+    background-color: #ffbd03;
+    color: red;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    height: 1.2rem;
+    padding: 0.25rem;
+}
+
+.deleteButton{
+    text-decoration: none;
+    border-radius: 2px solid #ffbd03;
+    background-color: #ffbd03;
+    color: rgb(0, 255, 145);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    height: 1.2rem;
+    padding: 0.55rem;
+}
